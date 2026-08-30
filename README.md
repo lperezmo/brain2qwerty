@@ -41,3 +41,9 @@ The code is released under [CC BY-NC 4.0](LICENSE).
 
 The datasets are collected by and belong to the [BCBL — Basque Center on Cognition, Brain and Language](https://www.bcbl.eu/).
 
+
+## Dependency security
+
+The pinned environment is maintained for security and differs from the original
+paper environment. See [SECURITY_UPDATES.md](SECURITY_UPDATES.md) for validation
+results, CUDA requirements, and the remaining upstream checkpoint-loading issue.
