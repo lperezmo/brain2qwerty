@@ -148,7 +148,9 @@ used for checkpointing.
 The configs are the **full, explicit** values used in the papers — treat them as the
 source of truth for reproduction. `pyproject.toml` exact-pins every direct
 dependency; `requirements.lock` additionally pins the full transitive closure to
-the exact versions used (`pip install -r requirements.lock`). Environment
+a security-maintained environment (`pip install -r requirements.lock`). This
+environment has been updated since the published experiments; see
+`SECURITY_UPDATES.md` before comparing reproduced metrics. Environment
 variables:
 
 | Var | Meaning |
